@@ -1,0 +1,22 @@
+{
+  "name": "quran-reading-website",
+  "version": "1.0.0",
+  "description": "A Site to read Surahs and Duahs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdullah-coder2013/Quran-Reading-Website.git"
+  },
+  "author": "Abdullah Bin Abdul Munim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abdullah-coder2013/Quran-Reading-Website/issues"
+  },
+  "homepage": "https://github.com/Abdullah-coder2013/Quran-Reading-Website#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
