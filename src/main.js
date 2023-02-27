@@ -4,7 +4,7 @@ var response = "";
     async function get() {
       let data = document.getElementById("surahs").value;
 
-      res = await fetch(`http://api.alquran.cloud/v1/surah/${data}`);
+      res = await fetch(`https://api.alquran.cloud/v1/surah/${data}`);
       return await res.json();
     }
     let apiresponse = get().then(async res => {
