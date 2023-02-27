@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="src/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/output.css">
   </head>
-  <body>
-  <div>
-      <textarea rows="20" cols="10" id="display"></textarea>
-    </div>
-    <div>
-      <div>
+  <body class="bg-gradient-to-r from-cyan-200 to-slate-400">
+      <div class="inline">
         <p>Select a surah: Surah </p>
         <select id="surahs">
           <option value="1">Al Fathiha</option>
@@ -21,8 +18,9 @@
         </select>
         <button type="button" id="selectbtn">Select</button>
       </div> 
-
-    </div> 
+      <div>
+        <textarea id="display"></textarea>
+      </div> 
     <script src="src/main.js"></script> 
   </body> 
 

@@ -1,6 +1,7 @@
 var response = "";
 
   document.getElementById("selectbtn").addEventListener("click", function(e) {
+    document.getElementById("display").value = "";
     async function get() {
       let data = document.getElementById("surahs").value;
 
